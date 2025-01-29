@@ -18,7 +18,7 @@ public class Questao7 {
         String linhaSuperior = "|".repeat(larguraMaxima + 8); 
         String linhaInferior = "|".repeat(larguraMaxima + 8); 
 
-        // Imprimindo título centralizado
+        
         System.out.println(linhaSuperior);
         System.out.println("| | " + centralizarTexto("", larguraMaxima) + " | |");
         System.out.println("| | " + centralizarTexto(parteSuperior, larguraMaxima) + " | |");
@@ -29,7 +29,7 @@ public class Questao7 {
         sc.close();
     }
 
-    // Método para centralizar o texto dentro de uma largura especificada
+    
     public static String centralizarTexto(String texto, int largura) {
         int espacos = largura - texto.length();
         int espacosEsquerda = espacos / 2;
